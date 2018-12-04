@@ -17,7 +17,7 @@ public class GooglonTextProcessor {
 		GooglonText googlonText = new GooglonText();
 		googlonText.setGooglonString(inputString);
 		
-		if (null != inputString) {
+		if (null != inputString && !inputString.isEmpty()) {
 			List<String> inputStrList = Arrays.asList(inputString.toLowerCase().trim().split(WHITE_SAPCE));
 			List<String> verbsList = inputStrList
 					.stream()

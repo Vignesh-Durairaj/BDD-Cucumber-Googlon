@@ -45,3 +45,22 @@ Feature: Googlon Language Processor
 		And There are 19 subjunctive verbs in the text
 		And Vocabulary list: "sxwc syjqfr srhm sinprhlwdm xwqmucp xwule ocmhp oylfmierg ojgelhisc orl odi oux cndlxuqhfg cpgyx ch cjxdl cgr ciex qpngufxjli qhiwfyudsp qehcmrjpwu qljs qrj qugre nsdohjim ncjysiwdh nqc nqeduhc ndepfswml ms mqgwclf mwrpcg mfginrqulc mexfjsi mjrliogucs mgnoqdjh muoplcrfi wxmyhipou wpxgyh wydjx wisly pxiomfqwrd pqf pmldxecqf pysfieucx phlyf phdgqir peqfw fsxcerumow fqexsi fwerpnxogs yqmgihus ywcr ypwocmxni yedhpws ylnxequr yjgq yrshie yinjs hsfywx hwsqc hwmjp hpngdocxw hygu hjwsqel hdroml hgcmqix exsij eorq ec eq emnd epqdonschm ey edmpwfnsuh lx ljsf jnqul jrcdiye jimlxfsygc rxsfecil rnpjw rjoh rijpsfgm dje dimxwofheq goi gn gnl uspxjgdlei umwrc umrocw up ufidryq isxl icy ipoufr iyuq irplxyofsm iupdjfnhm"
 		And There are 26 distinct pretty numbers in the text
+	
+	Scenario: Processing a single word googlon text
+		Given a working googlon processor
+		When The input text is "gxjrc"
+		Then There are 0 prepositions in the text
+		And There are 0 verbs in the text
+		And There are 0 subjunctive verbs in the text
+		And Vocabulary list: "gxjrc"
+		And There are 1 distinct pretty numbers in the text
+	
+	Scenario: Processing an empty googlon text
+		Given a working googlon processor
+		When The input text is ""
+		Then There are 0 prepositions in the text
+		And There are 0 verbs in the text
+		And There are 0 subjunctive verbs in the text
+		And There are 0 distinct pretty numbers in the text
+
+		
