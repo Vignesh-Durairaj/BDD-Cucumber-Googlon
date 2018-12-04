@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	
+<project 
+		xmlns="http://maven.apache.org/POM/4.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+			
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.vignesh.practice</groupId>
@@ -22,30 +22,23 @@
 	
 	<dependencies>
 		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-java</artifactId>
-			<version>1.1.5</version>
-			<scope>test</scope>
+		    <groupId>info.cukes</groupId>
+		    <artifactId>cucumber-core</artifactId>
+		    <version>1.2.5</version>
 		</dependency>
-			
+
 		<dependency>
 			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-jvm</artifactId>
-			<version>1.1.5</version>
-			<type>pom</type>
+			<artifactId>cucumber-java</artifactId>
+			<version>1.2.5</version>
+			<scope>test</scope>
 		</dependency>
 			
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-junit</artifactId>
-			<version>1.1.5</version>
+			<version>1.2.5</version>
 			<scope>test</scope>
-		</dependency>
-		
-		<dependency>
-			<groupId>net.sourceforge.cobertura</groupId>
-			<artifactId>cobertura</artifactId>
-			<version>2.1.1</version>
 		</dependency>
 		
 		<dependency>
@@ -55,16 +48,23 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>net.masterthought</groupId>
-			<artifactId>cucumber-reporting</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-		
-		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>gherkin</artifactId>
 			<version>2.12.2</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>net.masterthought</groupId>
+			<artifactId>cucumber-reporting</artifactId>
+			<version>4.2.3</version>
+		</dependency>
+		
+		<!-- <dependency>
+		    <groupId>net.sourceforge.cobertura</groupId>
+		    <artifactId>cobertura</artifactId>
+		    <version>2.1.1</version>
+		    <scope>test</scope>
+		</dependency> -->
 		
 		<dependency>
 			<groupId>org.mockito</groupId>
@@ -75,7 +75,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
+			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
