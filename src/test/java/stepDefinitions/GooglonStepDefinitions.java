@@ -5,7 +5,6 @@ import static org.junit.Assert.assertEquals;
 import com.credijusto.googlon.pojo.GooglonText;
 import com.credijusto.googlon.processor.GooglonTextProcessor;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -19,7 +18,6 @@ public class GooglonStepDefinitions {
 	@Given("^a working googlon processor$")
 	public void a_working_googlon_processor() throws Throwable {
 	    googlonProcessor = new GooglonTextProcessor();
-	    throw new PendingException();
 	}
 
 	@When("^The input text is \"([^\"]*)\"$")
