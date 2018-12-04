@@ -40,7 +40,7 @@ public class GooglonStepDefinitions {
 	    assertEquals(arg1, googlonText.getSubjunctivesCount());	
 	}
 
-	@Then("^Vocabulary list: \"([^\"]*)\"\"$")
+	@Then("^Vocabulary list: \"([^\"]*)\"$")
 	public void vocabulary_list(String arg1) throws Throwable {
 	    assertEquals(arg1, googlonText.getOrderedVocabularySet());
 	}
