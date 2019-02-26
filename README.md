@@ -15,7 +15,7 @@ A sample program to test the **Behavioral Driven Development (BDD)** using **Cuc
  4. A Googlon challenge was used as a scenario to develop the solution using Cucumber (and BDD)
  5. Solution was arrived such that the `feature` file test cases are getting passed
  6. Test run will be triggered from `Runner` classes via `Step Definitions`
- 7. Refer the `resources/Requirement_Specification.pdf` to understand the requirements.
+ 7. Refer the `resources/Requirement_Specification.pdf` to understand the requirements
 
 ## Reference used : 
 
