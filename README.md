@@ -1,6 +1,8 @@
 <img src="https://static1.squarespace.com/static/5b64cabf5b409bbf05dbd8b3/t/5b6571f11ae6cf3410e9e52b/1534509375774/?format=1500w"
      alt="Cucumber Logo"
      style="float: right; margin-left: 10px; width:50%; height:60%" 
+     width="40%"
+     height="40%"
      align="right"/>
 
 # JBehave Exercise
