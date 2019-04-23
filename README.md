@@ -7,6 +7,7 @@
 
 # JBehave Exercise
 
+[![CircleCI](https://circleci.com/gh/Vignesh-Durairaj/BDD-Cucumber-Googlon.svg?style=svg)](https://circleci.com/gh/Vignesh-Durairaj/BDD-Cucumber-Googlon) 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/378cc09981264df0a056c52ed412d63c)](https://app.codacy.com/app/Vignesh-Durairaj/BDD-Cucumber-Googlon?utm_source=github.com&utm_medium=referral&utm_content=Vignesh-Durairaj/BDD-Cucumber-Googlon&utm_campaign=Badge_Grade_Dashboard)
 
 A sample program to test the **Behavioral Driven Development (BDD)** using **Cucumber** framework, employing **Java 8** programming language.
