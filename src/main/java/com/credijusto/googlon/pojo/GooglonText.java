@@ -1,9 +1,5 @@
 package com.credijusto.googlon.pojo;
 
-/**
- * @author 1444058
- *
- */
 public class GooglonText {
 
 	private String googlonString;
