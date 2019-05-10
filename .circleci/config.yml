@@ -1,4 +1,6 @@
-version: 2
+version: 2.1
+orb:
+   codecov: codecov/codecov@1.0.4
 jobs:
    build:
       working_directory: ~/BDD-Cucumber-Googlon
@@ -16,5 +18,8 @@ jobs:
          - run: mvn package
          - store_test_results: 
             path: target/surefire-reports
+         - codecov/upload:
+            file: target/my-reports/jacoco.xml
+            token: 1e9461ba-5cc7-46b5-9dcb-45811ef27ca4
          - store_artifacts: 
             path: target/Googlon-0.0.1-SNAPSHOT.jar
