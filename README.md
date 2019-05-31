@@ -1,14 +1,14 @@
 <img src="https://static1.squarespace.com/static/5b64cabf5b409bbf05dbd8b3/t/5b6571f11ae6cf3410e9e52b/1534509375774/?format=1500w"
      alt="Cucumber Logo"
      style="float: right; margin-left: 10px; width:50%; height:60%" 
-     width="40%"
-     height="40%"
+     width="30%"
+     height="30%"
      align="right"/>
 
 # BDD Exercise using Cucumber
 
 [![CircleCI](https://circleci.com/gh/Vignesh-Durairaj/BDD-Cucumber-Googlon.svg?style=svg)](https://circleci.com/gh/Vignesh-Durairaj/BDD-Cucumber-Googlon) 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/378cc09981264df0a056c52ed412d63c)](https://app.codacy.com/app/Vignesh-Durairaj/BDD-Cucumber-Googlon?utm_source=github.com&utm_medium=referral&utm_content=Vignesh-Durairaj/BDD-Cucumber-Googlon&utm_campaign=Badge_Grade_Dashboard) [![Code Coverage](https://codecov.io/gh/Vignesh-Durairaj/BDD-Cucumber-Googlon/branch/master/graph/badge.svg)](https://codecov.io/gh/Vignesh-Durairaj/BDD-Cucumber-Googlon)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/378cc09981264df0a056c52ed412d63c)](https://app.codacy.com/app/Vignesh-Durairaj/BDD-Cucumber-Googlon?utm_source=github.com&utm_medium=referral&utm_content=Vignesh-Durairaj/BDD-Cucumber-Googlon&utm_campaign=Badge_Grade_Dashboard) [![Code Coverage](https://codecov.io/gh/Vignesh-Durairaj/BDD-Cucumber-Googlon/branch/master/graph/badge.svg)](https://codecov.io/gh/Vignesh-Durairaj/BDD-Cucumber-Googlon) ![Twitter Follow](https://img.shields.io/twitter/follow/vigneshdurairaj.svg?style=social)
 
 A sample program to test the **Behavioral Driven Development (BDD)** using **Cucumber** framework, employing **Java 8** programming language.
 
